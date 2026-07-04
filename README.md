@@ -1,2 +1,2 @@
 # bash-scripts
-repo for my own bash script to share
+repo for my own bash scripts to share
