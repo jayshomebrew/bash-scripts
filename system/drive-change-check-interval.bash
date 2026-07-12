@@ -2,6 +2,13 @@
 
 set -euo pipefail
 
+# download and run:
+# curl -fsSL https://raw.githubusercontent.com/jayshomebrew/bash-scripts/refs/heads/main/system/drive-change-check-interval.bash | bash
+#
+# download and inspect:
+# curl -fsSLO https://raw.githubusercontent.com/jayshomebrew/bash-scripts/refs/heads/main/system/drive-change-check-interval.bash && less drive-change-check-interval.bash
+#
+
 GREEN="\e[1;92m"
 YELLOW="\e[1;33m"
 RED="\e[1;31m"
@@ -29,7 +36,7 @@ confirm() {
 echo
 echo
 echo "This script will search for your root drive"
-echo "then change the check interval to every 30 days"
+echo "then change the check interval (fsck) to every 30 days"
 echo
 echo
 echo "Searching for the root filesystem..."
