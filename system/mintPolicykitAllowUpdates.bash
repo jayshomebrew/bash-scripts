@@ -2,7 +2,7 @@
 ##set -euo pipefail
 
 # download and run:
-# curl -fsSL https://raw.githubusercontent.com/jayshomebrew/bash-scripts/main/system/mintPolicykitAllowUpdates.bash | bash
+# bash <(curl -fsSL https://raw.githubusercontent.com/jayshomebrew/bash-scripts/main/system/mintPolicykitAllowUpdates.bash)
 #
 # download and inspect:
 # curl -fsSLO https://raw.githubusercontent.com/jayshomebrew/bash-scripts/main/system/mintPolicykitAllowUpdates.bash && less mintPolicykitAllowUpdates.bash
