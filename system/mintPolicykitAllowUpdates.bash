@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+##set -euo pipefail
 
 # download and run:
 # curl -fsSL https://raw.githubusercontent.com/jayshomebrew/bash-scripts/main/system/mintPolicykitAllowUpdates.bash | bash
